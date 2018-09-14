@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        html,body, 
+        .swiper-container {
+            width:100%;
+            height:100%;
+        }
+
+        .swiper-slide{
+           background-size: 100% 100%;
+        }
+
+       .first-slide {
+           font-size:128px;
+       }
+       .first-slide .title{
+           margin-left:40%;
+           margin-right:10;
+           margin-top:80px;
+           
+           width:50%;
+           text-align: center;
+           color:chocolate;
+           background:linear-gradient(to right, rgb(223, 150, 221), orange, yellow, #ddffdd, red); /* 标准的语法（必须放在最后） */
+       }
+    </style>
+</head>
+
+<body>
+    <!-- Slider main container -->
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide bg-01 first-slide">
+                <div class="title">欢迎</div>
+                <div>HELLO WORLD</div>
+            </div>
+            <div class="swiper-slide bg-02"></div>
+            <div class="swiper-slide bg-03"></div>
+            <div class="swiper-slide bg-05"></div>
+            <div class="swiper-slide bg-06"></div>
+            <div class="swiper-slide bg-07"></div>
+            <div class="swiper-slide bg-10"></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+</body>
+
+</html>
